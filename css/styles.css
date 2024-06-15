@@ -944,6 +944,13 @@ p {
   color: var(--blue);
 }
 
+#views-gallery {
+  display: -ms-grid;
+  display: grid;
+  gap: 16px;
+  -ms-grid-columns: 1fr 16px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
 #views-gallery li img {
   width: 100%;
 }
